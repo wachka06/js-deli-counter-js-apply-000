@@ -1,8 +1,11 @@
 var katzDeli = [];
 
+var count = 0;
 
 function takeANumber(katzDeliLine){
-  
+  count += 1;
+  KatzDeli.push(count);
+  return 'Welcome. Youre ticket number' + count;
 }
 
 // takeANumber(katzDeliLine) => 'Welcome. You're ticket number 1' [1]
