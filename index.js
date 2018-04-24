@@ -4,7 +4,7 @@ var count = 0;
 
 function takeANumber(katzDeliLine){
   count += 1;
-  KatzDeli.push(count);
+  KatzDeli.push(count);lear
   return 'Welcome. Youre ticket number' + count;
 }
 
